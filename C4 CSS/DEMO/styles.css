@@ -1,0 +1,66 @@
+body {
+    background-color:blanchedalmond;
+}
+
+.logo {
+    width: 20em;
+    height: 20em;
+}
+
+
+
+#principal {
+    font-size: 6em;
+}
+
+#titulos {
+    display: flex;
+    margin: auto;
+    width: 50vw;
+    flex-direction: column;
+    padding: 3em 0 3em 0;
+    gap: 3em;
+}
+
+
+
+
+.title {
+    font-size: 4em;
+    color:brown;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 70vw;
+    border: 1em solid yellow;
+    margin-top: 2em;
+    border-radius: 3em;
+    padding: 2em;
+    justify-content:space-evenly
+}
+
+.cards {
+    width: fit-content;
+    border: 0.3em solid rgb(20, 181, 225);
+    border-radius: 2em;
+    padding: 0 2em 2em  2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.cards:hover {
+    background-color: rgb(20, 181, 225);
+    border: 0.3em solid blueviolet;
+    transition: 1s;
+}
+
+.cards h3 {
+    font-size: 3em;
+}
